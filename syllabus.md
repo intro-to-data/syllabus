@@ -68,7 +68,7 @@ to weather, let me know and we will work something out.
 
 [Data science](https://en.wikipedia.org/wiki/Data_science)
 
-Class Goals:
+## Objectives:
 
 - Learn how to convert data into knowledge. Data is not knowledge. It
   is just data. Knowledge is what is developed from the process of
@@ -76,11 +76,17 @@ Class Goals:
 - Develop skills to help you solve complex problems by breaking these
   problems down in smaller, more manageable steps.
 
+
+
 # Prerequisites
+
 This course has a single prerequisite - curiosity. No analyst or
 researcher can succeed with out curiosity. Bring it in abundance.
 
+
+
 # Textbooks & Software
+
 Out-of-pocket costs for this course are zero. All materials needed to
 complete this course are available online, for free. That said, these
 materials _are_ very important. Because classroom time is limited,
@@ -88,9 +94,13 @@ there will be important material covered in the reading that will not
 be covered in-class.
 
 ## Textbooks
+
 1. [R For Data Science (R4DS)](http://r4ds.had.co.nz/) by *Hadley Wickham and
    Garrett Grolemund*
-2. Additional assigned readings, videos, etc.
+2. [Introduction to Modern Statistics
+   (IMS)](https://openintro-ims.netlify.app/index.html) by *Mine
+   Çetinkaya-Rundel and Johanna Hardin*
+3. Additional assigned readings, videos, etc.
 
 There is a dead-tree edition of the primary text. Although it does
 cost money, the authors have earned it. I personally own a copy of
@@ -98,6 +108,7 @@ each. However, the online edition has everything you need for
 class. Purchasing the dead-tree edition is optional.
 
 ## Recommended Reading
+
 Specific readings will be assigned from these additional resources:
 
 - [R-bloggers](https://www.r-bloggers.com/)
@@ -105,10 +116,10 @@ Specific readings will be assigned from these additional resources:
 - [Frank Harrell's blog: Statistical Thinking](http://www.fharrell.com/)
 
 ## Software
+
 The tools used in this class are Free and Open Source Software
 (FOSS). We'll discuss what that means in class, but for now it can
-simply mean you don't have to pay anything to use them. The first lab
-includes time to install and configure these tools.
+simply mean you don't have to pay anything to use them.
 
 Students will use the following software:
 
@@ -116,14 +127,11 @@ Students will use the following software:
 |:-----------------|:------------------------------------------------------------------------------|:-------:|:-----:|
 | R                | [Download R - CRAN](https://cran.r-project.org/)                              | GPL  v2 | $0.00 |
 | R Studio         | [Download RStudio Desktop](https://www.rstudio.com/products/RStudio/#Desktop) | AGPL v3 | $0.00 |
-|Excel/LibreOffice | [Download LibreOffice](https://www.libreoffice.org/download/download/)        | MPL  v2 | $0.00 |
 
-Students may use other R IDEs such as Emacs ESS, but classroom
-examples will focus on RStudio. Students may use either Microsoft
-Excel or LibreOffice Calc for spreadsheet assignments/projects (or
-other compatible software).
+This year, we will be using R Studio in the cloud, which I am really excited about.
 
 # Assignments & Grading
+
 Although taught together, the lab portion of the course (PBH211) will
 be graded separately from the class.
 
@@ -145,10 +153,10 @@ stress this enough. Most of you, I assume, are not programmers. There
 is going to be a learning curve. If class is the first time you
 encounter a concept, you won't learn this material.
 
-## Week 01:
+## Week 01: Course Introduction
 - **Topics:**
     - Course Introduction
-    - Please complete your name poster!
+    - ~Please complete your name poster!~
     - Complete class survey (if you have not already done so).
     - What is "Data Science"?
     - What is Tidy Data?
@@ -166,7 +174,7 @@ encounter a concept, you won't learn this material.
     - [R4DS: Data Visualization](https://r4ds.had.co.nz/data-visualisation.html)
     - [R4DS: Workflow Basics](http://r4ds.had.co.nz/workflow-basics.html)
 
-## Week 02:
+## Week 02: Intro to Data Viz
 - **Topics:**
   - Explore
   - Data Visualization
@@ -178,7 +186,7 @@ encounter a concept, you won't learn this material.
     - [R4DS: Exploratory Data Analysis](http://r4ds.had.co.nz/exploratory-data-analysis.html)
     - [R4DS: Workflow: projects](https://r4ds.had.co.nz/workflow-projects.html)
 
-## Week 03:
+## Week 03: Data Munging
 - **Topics:**
   - Data Transformation
   - Workflow: Scripts
@@ -193,7 +201,7 @@ encounter a concept, you won't learn this material.
     - [R4DS: Data import](https://r4ds.had.co.nz/data-import.html)
     - [R4DS: Tidy data](https://r4ds.had.co.nz/tidy-data.html)
 
-## Week 04:
+## Week 04: Review & Quiz
 - **Topics:** Visualize This
   - Data Wrangling (yee-haw)
   - Tibbles v. data.frames
@@ -206,7 +214,7 @@ encounter a concept, you won't learn this material.
     - [R4DS: Factors](https://r4ds.had.co.nz/factors.html)
     - [R4DS: Dates and times](https://r4ds.had.co.nz/dates-and-times.html)
 
-## Week 05:
+## Week 05: Relational Data 1
 - **Topics:** 
     - Relational data (inner join)
     - Strings
@@ -220,7 +228,7 @@ encounter a concept, you won't learn this material.
   - [R4DS: Vectors](https://r4ds.had.co.nz/vectors.html)
   - [R4DS: Iteration](https://r4ds.had.co.nz/iteration.html)
 
-## Week 06:
+## Week 06: Relational Data 2
 - **Topics:**
     - Relational data (left join)
     - Program Control: if/then/else statements
@@ -234,12 +242,13 @@ encounter a concept, you won't learn this material.
     - [R4DS: Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)
     - [R4DS: R Markdown formats](https://r4ds.had.co.nz/r-markdown-formats.html)
     - [R4DS: R Markdown workflow](https://r4ds.had.co.nz/r-markdown-workflow.html)
-
   
-## Week 07:
+## Week 07: RMarkdown, Reproducibility, & Measures of Centrality
 - **Topics:**
   - R Markdown
-  - Relational Review
+  - Measures of Centrality
+  - Standard Deviation
+  - Confidence Intervals
   - What do you want to discuss/review?
 - **Assigned Reading:** 
     - Readings assigned for week seven introduce no new concepts. These
@@ -255,7 +264,7 @@ encounter a concept, you won't learn this material.
     - [Data Transformation Cheat Sheet](https://resources.rstudio.com/the-essentials-of-data-science/data-transformation)
     - [Data Visualization Cheat Sheet](https://resources.rstudio.com/the-essentials-of-data-science/data-visualization-2-1)
 
-## Midterm Exam: Mar 05
+## Week 08: Ethics and Bias
 - Pizza, and an exam.
 - **Assigned Reading:** 
     - [Pull Oneself Up By One's Bootstraps](https://en.wiktionary.org/wiki/pull_oneself_up_by_one%27s_bootstraps)
@@ -263,19 +272,11 @@ encounter a concept, you won't learn this material.
         - How to do EVERYTHING in R Markdown (nearly)
     - [What Has Happened Down Here Is The Winds Have Changed](http://andrewgelman.com/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/)
 
-## Spring Break:
-- Not really relevant this year, but I'm leaving it here for
-  posterity's sake.
-- Please use this time to review anything you did not understand in
-  the first half of the course.
-
-## Week 09:
+## Week 09: Version Control and Statistical Significance
 - **Topics:** Is Statistical Significance, Significant?
-    - Standard Deviation
-    - Confidence Intervals
+    - What is version control and why should you care?
     - What is a P-Value?
     - What else can we do?
-    - R Markdown
 - **Assigned Reading:**
     - [R4DS: Model Intro](https://r4ds.had.co.nz/model-intro.html)
     - [R4DS: Model basics](https://r4ds.had.co.nz/model-basics.html)
@@ -283,7 +284,9 @@ encounter a concept, you won't learn this material.
     - [R4DS: Many Models](https://r4ds.had.co.nz/many-models.html)
     - [Wikipedia: Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
 
-## Week 10:
+## Week 10: Review & Quiz
+
+## Week 11: Linear Regression
 - **Topics:** Tell me straight, does it fit?
   - Basic Linear regression
   - Judging a linear model?
@@ -291,7 +294,7 @@ encounter a concept, you won't learn this material.
     - [Wikipedia: Lasso Regression](https://en.wikipedia.org/wiki/Lasso_(statistics))
     - [Wikipedia: Ridge Regression](https://en.wikipedia.org/wiki/Tikhonov_regularization)
 
-## Week 11:
+## Week 12: Multivariate Linear Regression
 - **Topics:** 
   - Multivariate linear regression
   - Ridge/Lasso regression
@@ -299,7 +302,7 @@ encounter a concept, you won't learn this material.
     - [Abandon Statistical Significance](http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf)
     - [Forget Excel: This Was Reinhart and Rogoff's Biggest Mistake](https://www.theatlantic.com/amp/article/275088/)
 
-## Week 12:
+## Week 13: Logistic Regression
 - **Topics:** Lasso Your Future :robot_face:
   - Ethical Analysis
   - Logistic Regression
@@ -308,7 +311,7 @@ encounter a concept, you won't learn this material.
     - [How Machines Learn](http://flowingdata.com/2017/12/20/how-machines-learn/)
     - [Do Scientists Feel Pressure To Produce Positive Results?](http://earthsky.org/human-world/do-scientists-feel-pressure-to-produce-positive-results)
     
-## Week 13:
+## Week 14: Decision Trees
 - **Topics:** Can't See The Forest For All These Trees
   - Ethical Analysis 2
   - Decision Trees
@@ -318,12 +321,6 @@ encounter a concept, you won't learn this material.
 - **Assigned Reading:** 
     - [Learning To Fool Our Algorithmic Spies](https://nytimes.com/2018/01/09/magazine/learning-to-fool-our-algorithmic-spies.html?referer=http://digg.com/)
     - [How Open Source Can Fight Algorithmic Bias](https://opensource.com/article/18/1/how-open-source-can-fight-algorithmic-bias)
-
-## Week 14:
-- **Due:** Assignment 05
--  **Assigned Reading:** 
-    - [We Used Broadband Data We Shouldn't Have, Here's What Went Wrong](https://fivethirtyeight.com/features/we-used-broadband-data-we-shouldnt-have-heres-what-went-wrong/)
-    - [Can You Use This Data Set to Find Serial Killers?](http://www.slate.com/articles/health_and_science/science/2017/12/the_data_behind_the_serial_killer_detector_has_some_small_issues.html)
 
 ## Final Exam:
 
