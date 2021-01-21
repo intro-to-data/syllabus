@@ -128,7 +128,7 @@ Students will use the following software:
 | R                | [Download R - CRAN](https://cran.r-project.org/)                              | GPL  v2 | $0.00 |
 | R Studio         | [Download RStudio Desktop](https://www.rstudio.com/products/RStudio/#Desktop) | AGPL v3 | $0.00 |
 
-This year, we will be using R Studio in the cloud, which I am really excited about.
+This year, we will be using [R Studio in the cloud](https://rstudio.cloud), which I am really excited about.
 
 # Assignments & Grading
 
@@ -153,6 +153,10 @@ stress this enough. Most of you, I assume, are not programmers. There
 is going to be a learning curve. If class is the first time you
 encounter a concept, you won't learn this material.
 
+Because we all learn in different ways, I have developed a list of
+high quality videos (mostly YouTube) and primer/vignette (mostly from
+RStudio) resources.
+
 ## Week 01: Course Introduction
 - **Topics:**
     - Course Introduction
@@ -160,19 +164,18 @@ encounter a concept, you won't learn this material.
     - Complete class survey (if you have not already done so).
     - What is "Data Science"?
     - What is Tidy Data?
-    - Define: Vector
-    - Define: Dataframe
-    - Our Tools (R, RStudio, Excel)
+    - Our Tools (R, RStudio)
         - **Note:** Students may access these tools via the ACPHS
           virtual desktops.
-    - I will refer to the book, R For Data Science as R4DS to save
-      space here.
-- **Assigned Reading:**
+- **Reading:**
     - The readings for weeks one and two will cover R4DS Part 1, Explore.
     - [R4DS: Introduction](http://r4ds.had.co.nz/introduction.html)
-    - [R4DS: Explore-Intro](https://r4ds.had.co.nz/explore-intro.html)
-    - [R4DS: Data Visualization](https://r4ds.had.co.nz/data-visualisation.html)
-    - [R4DS: Workflow Basics](http://r4ds.had.co.nz/workflow-basics.html)
+    - [IMS: Getting Started With Data](https://openintro-ims.netlify.app/getting-started-with-data.html)
+- **Video:**
+    - [A Gentle Introduction To Tidy Statistics](https://rstudio.com/resources/webinars/a-gentle-introduction-to-tidy-statistics-in-r/)
+- **Primer:**
+    - [Data Visualization Basics](https://rstudio.cloud/learn/primers/1.1)
+    - [Programming Basics](https://rstudio.cloud/learn/primers/1.2)
 
 ## Week 02: Intro to Data Viz
 - **Topics:**
@@ -180,68 +183,85 @@ encounter a concept, you won't learn this material.
   - Data Visualization
   - Workflow Basics
   - Measures of centrality
-- **Assigned Reading:**
-    - [R4DS: Data Transformation](http://r4ds.had.co.nz/transform.html)
-    - [R4DS: Workflow: Scripts](http://r4ds.had.co.nz/workflow-scripts.htmlhttp://r4ds.had.co.nz/workflow-scripts.html)
-    - [R4DS: Exploratory Data Analysis](http://r4ds.had.co.nz/exploratory-data-analysis.html)
-    - [R4DS: Workflow: projects](https://r4ds.had.co.nz/workflow-projects.html)
+- **Reading:**
+    - [R4DS: Explore-Intro](https://r4ds.had.co.nz/explore-intro.html)
+    - [R4DS: Data Visualization](https://r4ds.had.co.nz/data-visualisation.html)
+    - [R4DS: Workflow Basics](http://r4ds.had.co.nz/workflow-basics.html)
+    - [IMS: Summarizing and Visualizing Data](https://openintro-ims.netlify.app/summarizing-visualizing-data.html)
+- **Video:**
+    - [IDS - Week 02 - 02 - Data and visualisation](https://www.youtube.com/watch?v=FddF4b_GuTI&feature=youtu.be)
+    - [IDS - Week 02 - 03 - Visualising data with ggplot2](https://www.youtube.com/watch?v=s2NF2J36ljE&feature=youtu.be)
+- **Primer:**
+    - [Data Visualization Primers](https://rstudio.cloud/learn/primers/3)
+- Background:
+    - If you feel you need more background information on best
+      practices from a statistical standpoint:
+    - [IMS :: Sec 2.1 - Exploring numerical data](https://openintro-ims.netlify.app/summarizing-visualizing-data.html#numerical-data)
+    - [IMS :: Sec 2.2 - Exploring categorical data](https://openintro-ims.netlify.app/summarizing-visualizing-data.html#categorical-data)
 
-## Week 03: Data Munging
+## Week 03: Intro to Data Munging
 - **Topics:**
   - Data Transformation
-  - Workflow: Scripts
-  - EDA
-  - Workflow: Projects
-  - Compare R to Excel
-- **Due:** Assignment 01
-- **Assigned Reading:**
-    - Readings for weeks three and four will cover R4DS Part II, Wrangle.
+  - Tidy Data
+- **Reading:**
     - [R4DS: Wrangle Introduction](https://r4ds.had.co.nz/wrangle-intro.html)
-    - [R4DS: Tibbles](https://r4ds.had.co.nz/tibbles.html)
-    - [R4DS: Data import](https://r4ds.had.co.nz/data-import.html)
+    - [R4DS: Data Transformation](http://r4ds.had.co.nz/transform.html)
     - [R4DS: Tidy data](https://r4ds.had.co.nz/tidy-data.html)
+    - [Tidy Data by Hadley Wickham](https://www.jstatsoft.org/article/view/v059i10)
+- **Video:**
+    - [dplyr intro | Data manipulation in R](https://www.youtube.com/watch?v=rm0BQSWoJlc)
+    - [Introduction to the dplyr R package](https://www.youtube.com/watch?v=aywFompr1F4)
+- **Primer:**
+    - [Isolating data with dplyr](https://rstudio.cloud/learn/primers/2.2)
+    - [Derive information with dplyr](https://rstudio.cloud/learn/primers/2.3)
+
 
 ## Week 04: Review & Quiz
-- **Topics:** Visualize This
-  - Data Wrangling (yee-haw)
-  - Tibbles v. data.frames
-  - Data Import
-  - Tidy Data
-- **Assigned Reading:** 
-    - [R4DS: Relational data](http://r4ds.had.co.nz/relational-data.html)
-        - Read this one a couple of times. It isn't easy.
-    - [R4DS: Strings](https://r4ds.had.co.nz/strings.html)
-    - [R4DS: Factors](https://r4ds.had.co.nz/factors.html)
-    - [R4DS: Dates and times](https://r4ds.had.co.nz/dates-and-times.html)
-
+- Slow down, take a deep breath, and take a quiz.
+- **Reading:** 
+    - [R4DS: Tibbles](https://r4ds.had.co.nz/tibbles.html)
+    - [R4DS: Data import](https://r4ds.had.co.nz/data-import.html)
+- **Video:**
+    - [Data wrangling with R and RStudio](https://resources.rstudio.com/the-essentials-of-data-science/data-wrangling-with-r-and-rstudio-55-40)
+        - A 55 minute video which will review much of the material we
+          have covered thus far in the course. Nothing new added, but,
+          hearing it a different way cannot hurt you.
+    - These are all SHORT
+        - [dplyr::group_by() | How to use dplyr group by function | R Programming](https://www.youtube.com/watch?v=EUlEQiy3LBA)
+        - [dplyr::mutate() | How to use dplyr mutate function | R Programming](https://www.youtube.com/watch?v=Y0zE9AWBVfg)
+        - [dplyr::select() | How to use dplyr select function | R Programming](https://www.youtube.com/watch?v=B5K5cQsHs8U)
+        - [dplyr::arrange() | How to use dplyr arrange function | R Programming](https://www.youtube.com/watch?v=QjFG1rGOPHk)
+        - [dplyr::summarize() | How to use dplyr summarise function | R Programming](https://www.youtube.com/watch?v=8oY1SIA92JQ)
+- **Primer:**
+    - [Working with Tibbles](https://rstudio.cloud/learn/primers/2.1)
+    - [Introduction to dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html)
+- Useful Reference Material:
+    - As with other resources, you MAY use these on the quizzes.
+    - [Data Transformation Cheat Sheet](https://resources.rstudio.com/the-essentials-of-data-science/data-transformation)
+    - [Data Visualization Cheat Sheet](https://resources.rstudio.com/the-essentials-of-data-science/data-visualization-2-1)
+    
 ## Week 05: Relational Data 1
 - **Topics:** 
     - Relational data (inner join)
-    - Strings
-    - Factors
-    - Dates and times
-- **Assigned Reading:**
-  - Readings assigned for week five will cover R4DS Part III, Program.
+    - More data munging
+- **Reading:**
+  - [R4DS: Relational data](http://r4ds.had.co.nz/relational-data.html)
+    - Read this one a couple of times. It isn't easy.
   - [R4DS: Program Introduction](https://r4ds.had.co.nz/program-intro.html)
   - [R4DS: Pipes](https://r4ds.had.co.nz/pipes.html)
   - [R4DS: Functions](https://r4ds.had.co.nz/functions.html)
   - [R4DS: Vectors](https://r4ds.had.co.nz/vectors.html)
   - [R4DS: Iteration](https://r4ds.had.co.nz/iteration.html)
+  - Primer: [Join Data Sets](https://rstudio.cloud/learn/primers/4.3)
+      - Also, this one is very important.
 
 ## Week 06: Relational Data 2
 - **Topics:**
     - Relational data (left join)
-    - Program Control: if/then/else statements
-    - Loops: for/while
-    - Functions
-    - Vectors
--  **Assigned Reading:** 
+    - Ever more data munging
+-  **Reading:** 
     - Readings assigned for week six wil cover R4DS Part V, Communicate.
-    - [R4DS: Communicate Introduction](https://r4ds.had.co.nz/communicate-intro.html)
-    - [R4DS: R Markdown](https://r4ds.had.co.nz/r-markdown.html)
     - [R4DS: Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)
-    - [R4DS: R Markdown formats](https://r4ds.had.co.nz/r-markdown-formats.html)
-    - [R4DS: R Markdown workflow](https://r4ds.had.co.nz/r-markdown-workflow.html)
   
 ## Week 07: RMarkdown, Reproducibility, & Measures of Centrality
 - **Topics:**
@@ -250,66 +270,80 @@ encounter a concept, you won't learn this material.
   - Standard Deviation
   - Confidence Intervals
   - What do you want to discuss/review?
-- **Assigned Reading:** 
+- **Reading:** 
     - Readings assigned for week seven introduce no new concepts. These
       are useful and will expand on your understanding of things we
       have already introduced in class/lab.
-    - [Tidy Data by Hadley Wickham](https://www.jstatsoft.org/article/view/v059i10)
+    - [Getting Started with RMarkdown](https://rstudio.com/resources/webinars/getting-started-with-r-markdown/)
     - [Wikipedia: Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
     - [Why I Love R Notebooks](https://rviews.rstudio.com/2017/03/15/why-i-love-r-notebooks/)
-    - [Data wrangling with R and RStudio](https://resources.rstudio.com/the-essentials-of-data-science/data-wrangling-with-r-and-rstudio-55-40)
-        - A 55 minute video which will review much of the material we
-          have covered thus far in the course. Nothing new added, but,
-          hearing it a different way cannot hurt you.
-    - [Data Transformation Cheat Sheet](https://resources.rstudio.com/the-essentials-of-data-science/data-transformation)
-    - [Data Visualization Cheat Sheet](https://resources.rstudio.com/the-essentials-of-data-science/data-visualization-2-1)
-
-## Week 08: Ethics and Bias
-- Pizza, and an exam.
-- **Assigned Reading:** 
-    - [Pull Oneself Up By One's Bootstraps](https://en.wiktionary.org/wiki/pull_oneself_up_by_one%27s_bootstraps)
     - [R Markdown Formats](https://rmarkdown.rstudio.com/formats.html)
         - How to do EVERYTHING in R Markdown (nearly)
+    - [R4DS: Communicate Introduction](https://r4ds.had.co.nz/communicate-intro.html)
+    - [R4DS: R Markdown](https://r4ds.had.co.nz/r-markdown.html)
+- **Video:**
+    - [Getting started with R
+      Markdown](https://rstudio.com/resources/webinars/getting-started-with-r-markdown/)
+      This is a detailed discussion and goes further than we need to
+      in our class but it is an excellent resource.
+
+## Week 08: Ethics, Bias, and So Much More
+- Ethics in Data Science
+- Bias in Data
+- Flow Control in R
+- **Reading:** 
+    
     - [What Has Happened Down Here Is The Winds Have Changed](http://andrewgelman.com/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/)
+    - [Do Scientists Feel Pressure To Produce Positive Results?](http://earthsky.org/human-world/do-scientists-feel-pressure-to-produce-positive-results)
+    - [Fired Florida Data Scientist Launches A Coronavirus Dashboard Of Her Own](https://www.npr.org/2020/06/14/876584284/fired-florida-data-scientist-launches-a-coronavirus-dashboard-of-her-own)
+    - [Data Scientist Rebekah Jones, Facing Arrest, Turns Herself In To Florida Authorities](https://www.npr.org/sections/coronavirus-live-updates/2021/01/18/957914495/data-scientist-rebekah-jones-facing-arrest-turns-herself-in-to-florida-authoriti)
 
 ## Week 09: Version Control and Statistical Significance
 - **Topics:** Is Statistical Significance, Significant?
     - What is version control and why should you care?
     - What is a P-Value?
     - What else can we do?
-- **Assigned Reading:**
-    - [R4DS: Model Intro](https://r4ds.had.co.nz/model-intro.html)
-    - [R4DS: Model basics](https://r4ds.had.co.nz/model-basics.html)
-    - [R4DS: Model building](https://r4ds.had.co.nz/model-building.html)
-    - [R4DS: Many Models](https://r4ds.had.co.nz/many-models.html)
-    - [Wikipedia: Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
+- **Reading:**
+    - I know, there's a lot here. Pick some that interest you.
+    - [IMS: Intro Statistical Inference](https://openintro-ims.netlify.app/intro-stat-inference.html)
+    - [Abandon Statistical Significance](http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf)
+    - [Forget Excel: This Was Reinhart and Rogoff's Biggest Mistake](https://www.theatlantic.com/amp/article/275088/)
+    - [Learning To Fool Our Algorithmic Spies](https://nytimes.com/2018/01/09/magazine/learning-to-fool-our-algorithmic-spies.html?referer=http://digg.com/)
+    - [How Open Source Can Fight Algorithmic Bias](https://opensource.com/article/18/1/how-open-source-can-fight-algorithmic-bias)
 
 ## Week 10: Review & Quiz
+- Slow down, take a deep breath, and take a quiz.
+- ** Reading:**
+    -
 
 ## Week 11: Linear Regression
 - **Topics:** Tell me straight, does it fit?
   - Basic Linear regression
   - Judging a linear model?
-- **Assigned Reading:** 
-    - [Wikipedia: Lasso Regression](https://en.wikipedia.org/wiki/Lasso_(statistics))
-    - [Wikipedia: Ridge Regression](https://en.wikipedia.org/wiki/Tikhonov_regularization)
+- **Reading:** 
+    - [IMS: Intro Linear Models](https://openintro-ims.netlify.app/intro-linear-models.html)
+    - [R4DS: Model Intro](https://r4ds.had.co.nz/model-intro.html)
+    - [R4DS: Model basics](https://r4ds.had.co.nz/model-basics.html)
 
 ## Week 12: Multivariate Linear Regression
 - **Topics:** 
   - Multivariate linear regression
   - Ridge/Lasso regression
--  **Assigned Reading:** 
-    - [Abandon Statistical Significance](http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf)
-    - [Forget Excel: This Was Reinhart and Rogoff's Biggest Mistake](https://www.theatlantic.com/amp/article/275088/)
+-  **Reading:** 
+    - [IMS: Regression with Multiple Predictors](https://openintro-ims.netlify.app/multi-logistic-models.html#regression-multiple-predictors)
+        - STOP when you get to logistic regression. That's for next week.
+    - [R4DS: Model building](https://r4ds.had.co.nz/model-building.html)
+    - [R4DS: Many Models](https://r4ds.had.co.nz/many-models.html)
+    
 
 ## Week 13: Logistic Regression
 - **Topics:** Lasso Your Future :robot_face:
   - Ethical Analysis
   - Logistic Regression
--  **Assigned Reading:**
-    - Assignment 04
-    - [How Machines Learn](http://flowingdata.com/2017/12/20/how-machines-learn/)
-    - [Do Scientists Feel Pressure To Produce Positive Results?](http://earthsky.org/human-world/do-scientists-feel-pressure-to-produce-positive-results)
+-  **Reading:**
+    - [IMS: Intro to Logistic Regression](https://openintro-ims.netlify.app/multi-logistic-models.html#logistic-regression)
+    
+
     
 ## Week 14: Decision Trees
 - **Topics:** Can't See The Forest For All These Trees
@@ -318,9 +352,9 @@ encounter a concept, you won't learn this material.
   - Random Forests
       - The relationship between the random Forest and bootstrapping
 - **Due:** Assignment 04
-- **Assigned Reading:** 
-    - [Learning To Fool Our Algorithmic Spies](https://nytimes.com/2018/01/09/magazine/learning-to-fool-our-algorithmic-spies.html?referer=http://digg.com/)
-    - [How Open Source Can Fight Algorithmic Bias](https://opensource.com/article/18/1/how-open-source-can-fight-algorithmic-bias)
+- **Reading:** 
+    - [How Machines Learn](http://flowingdata.com/2017/12/20/how-machines-learn/)
+    
 
 ## Final Exam:
 
