@@ -17,23 +17,27 @@
 
 
 # Class Schedule
-| Description                  | Class Date   |
-|:-----------------------------|:------------:|
-| Week 01                      | Jan 21, 2021 |
-| Week 02                      | Jan 28, 2021 |
-| Week 03                      | Feb 04, 2021 |
-| Week 04                      | Feb 11, 2021 |
-| Week 05                      | Feb 18, 2021 |
-| Week 06                      | Feb 25, 2021 |
-| Week 07                      | Mar 04, 2021 |
-| Midterm Exam                 | Mar 11, 2021 |
-| Week 09                      | Mar 18, 2021 |
-| Week 10                      | Mar 25, 2021 |
-| Week 11                      | Apr 01, 2021 |
-| Week 12                      | Apr 08, 2021 |
-| Week 13                      | Apr 15, 2021 |
-| Week 14                      | Apr 22, 2021 |
-| Final Exam                   | Apr 30, 2021 |
+
+| Description | Event      | Class Date   |
+|:------------|:----------:|:------------:|
+| Week 01     |            | Jan 21, 2021 |
+| Week 02     |            | Jan 28, 2021 |
+| Week 03     |            | Feb 04, 2021 |
+| Week 04     |            | Feb 11, 2021 |
+| Week 05     |            | Feb 18, 2021 |
+| Week 06     | Quiz 1     | Feb 25, 2021 |
+| Week 07     |            | Mar 04, 2021 |
+| Week 08     |            | Mar 11, 2021 |
+| Week 09     |            | Mar 18, 2021 |
+| Week 10     | Quiz 2     | Mar 25, 2021 |
+| Week 11     |            | Apr 01, 2021 |
+| Week 12     |            | Apr 08, 2021 |
+| Week 13     |            | Apr 15, 2021 |
+| Week 14     |            | Apr 22, 2021 |
+| Final Exam  | Final Exam | Apr 29, 2021 |
+
+**Note:** This "calendar" does not include assignments. The due date shown in 
+Canvas, if different from this, should be accepted as canonical.
 
 **Attendance Policy:** I expect you to attend/participate in class and
 lab. By doing so, you will learn more. With that said, you are an
